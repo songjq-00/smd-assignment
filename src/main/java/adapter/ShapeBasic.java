@@ -1,9 +1,9 @@
-package com.tangshunyao.adapter;
+package main.java.adapter;
 
 public interface ShapeBasic {
     void draw();
     void grow();
     String printText();
     boolean isVisible();
-
+    
 }

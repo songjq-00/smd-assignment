@@ -1,4 +1,5 @@
-package com.tangshunyao.adapter;
+
+package main.java.adapter;
 
 public class Rectangle extends Visibility implements ShapeBasic{
     @Override
