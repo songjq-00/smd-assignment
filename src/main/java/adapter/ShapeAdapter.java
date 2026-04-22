@@ -1,14 +1,14 @@
 package main.java.adapter;
 
 public class ShapeAdapter extends Visibility implements ShapeBasic{
-    private ShapeSpecial shape;
-    public ShapeAdapter(ShapeSpecial shape){
-        this.shape = shape;
+    private ShapeSpecial adaptee;
+    public ShapeAdapter(ShapeSpecial adaptee){
+        this.adaptee = adaptee;
     }
 
     @Override
     public void draw(){
-        shape.drawShape();
+        adaptee.drawShape();
     }
 
     public void grow(){
@@ -17,9 +17,9 @@ public class ShapeAdapter extends Visibility implements ShapeBasic{
 
     @Override
     public String printText(){
-        if(shape instanceof Triangle){
+        if(adaptee instanceof Triangle){
             return "Triangle";
-        }else if(shape instanceof ShapeDiamond){
+        }else if(adaptee instanceof ShapeDiamond){
             return "ShapeDiamond";
         }else{
             return "This shape is not supported";

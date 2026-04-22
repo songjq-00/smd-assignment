@@ -1,0 +1,155 @@
+[33mcommit 1283cb508dd3f6ba5d68d2e9caacab090b371bc4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: songjq-00 <2496180611@qq.com>
+Date:   Wed Apr 22 18:56:08 2026 +0800
+
+    change
+
+ src/Main.java                          | 3 [32m+++[m
+ src/main/java/adapter/AdapterMain.java | 2 [32m++[m
+ src/main/java/adapter/Circle.java      | 8 [32m++++++++[m
+ src/main/java/adapter/Rectangle.java   | 9 [32m+++++[m[31m----[m
+ src/main/java/adapter/ShapeDrawer.java | 2 [32m+[m[31m-[m
+ 5 files changed, 19 insertions(+), 5 deletions(-)
+
+[33mcommit 85e64e33df7dd526a8a20b94fbe35757f2f55570[m
+Author: ”tangshunyao” <”211449757@qq.com”>
+Date:   Wed Apr 22 18:52:54 2026 +0800
+
+    shapeAdapter
+
+ src/main/java/adapter/ShapeAdapter.java | 34 [32m+++++++++++++++++++++++++++++++++[m
+ 1 file changed, 34 insertions(+)
+
+[33mcommit aad6d286bf6c07452656415dad15aa5bc7183693[m
+Author: ”tangshunyao” <”211449757@qq.com”>
+Date:   Wed Apr 22 18:25:25 2026 +0800
+
+    update shapeSpecial
+
+ src/main/java/adapter/ShapeSpecial.java | 7 [32m+++++++[m
+ 1 file changed, 7 insertions(+)
+
+[33mcommit 17f5d534c0b03cbb35c73e5bdf30a03ef53125a7[m
+Author: ”tangshunyao” <”211449757@qq.com”>
+Date:   Wed Apr 22 18:03:09 2026 +0800
+
+    更新adaptermain“
+
+ src/main/java/adapter/AdapterMain.java | 29 [32m+++++++++++++++++++++++++++++[m
+ src/main/java/adapter/ShapeDrawer.java | 13 [32m+++++++++++++[m
+ 2 files changed, 42 insertions(+)
+
+[33mcommit 18f816e631994fb4375a516c68e49da9ec678ddb[m
+Author: songjq-00 <2496180611@qq.com>
+Date:   Wed Apr 22 17:09:22 2026 +0800
+
+    adaptermain
+
+ src/main/java/adapter/AdapterMain.java | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit 81336b846749eef2053b37ccdfb25b8e85340455[m
+Author: ”tangshunyao” <”211449757@qq.com”>
+Date:   Wed Apr 22 16:54:48 2026 +0800
+
+    更新ShapeDrawer“
+
+ src/main/java/adapter/Drawing.java     | 22 [32m++++++++++++++++++++++[m
+ src/main/java/adapter/ShapeDrawer.java |  3 [32m++[m[31m-[m
+ 2 files changed, 24 insertions(+), 1 deletion(-)
+
+[33mcommit d8636f74c58760d61ea62d964bd90a913a40e793[m
+Merge: 7505124 20b83d0
+Author: ”tangshunyao” <”211449757@qq.com”>
+Date:   Wed Apr 22 16:51:22 2026 +0800
+
+    解决Circle.java的合并冲突
+
+[33mcommit 750512436ac908a9627ed58eacfb63ae412beb19[m
+Author: ”tangshunyao” <”211449757@qq.com”>
+Date:   Wed Apr 22 16:49:22 2026 +0800
+
+    保存修改“
+
+ src/main/java/adapter/Circle.java      | 17 [32m+++++++++++++++++[m
+ src/main/java/adapter/ShapeDrawer.java | 30 [32m++++++++++++++++++++++++++++++[m
+ src/main/java/adapter/Visibility.java  | 15 [32m+++++++++++++++[m
+ 3 files changed, 62 insertions(+)
+
+[33mcommit 20b83d05d6ef5aaa6d3607a5b7dd72d41e2a4f06[m
+Author: songjq-00 <2496180611@qq.com>
+Date:   Wed Apr 22 16:45:56 2026 +0800
+
+    Drawing
+
+ src/main/java/adapter/Circle.java | 17 [32m+++++++++++++++++[m
+ 1 file changed, 17 insertions(+)
+
+[33mcommit 05f0c43751af2548bf8dd74eae285ff972378945[m
+Author: songjq-00 <2496180611@qq.com>
+Date:   Wed Apr 22 16:43:59 2026 +0800
+
+    Drawing
+
+ src/main/java/adapter/Drawing.java | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit afd4c0fe656890d00992a02898a92ae555052289[m
+Merge: 1e967b2 440fc34
+Author: songjq-00 <2496180611@qq.com>
+Date:   Wed Apr 22 16:14:37 2026 +0800
+
+    update to main
+
+[33mcommit 440fc34c17f16ca6a9601b3effc5d7af89929b35[m
+Author: ”tangshunyao” <”211449757@qq.com”>
+Date:   Wed Apr 22 16:12:23 2026 +0800
+
+    update to main
+
+ src/com/tangshunyao/adapter/Main.java                      | 5 [31m-----[m
+ src/main/java/adapter/Main.java                            | 4 [32m++++[m
+ src/{com/tangshunyao => main/java}/adapter/Rectangle.java  | 3 [32m++[m[31m-[m
+ src/{com/tangshunyao => main/java}/adapter/ShapeBasic.java | 4 [32m++[m[31m--[m
+ 4 files changed, 8 insertions(+), 8 deletions(-)
+
+[33mcommit 1e967b2f40c9d2d1b8cf8b12e8892e6b5963727b[m
+Author: songjq-00 <2496180611@qq.com>
+Date:   Wed Apr 22 15:49:30 2026 +0800
+
+    Visibility & Circle
+
+ src/Songjianqi/Circle.java     | 0
+ src/{ => Songjianqi}/Main.java | 0
+ src/Songjianqi/Visibility.java | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit ddb4edcda0cfc61a726d75e0f19c8d66c23438d7[m
+Author: ”tangshunyao” <”211449757@qq.com”>
+Date:   Wed Apr 22 15:46:36 2026 +0800
+
+    rectangle & shapeBasic
+
+ src/Main.java                               |  3 [31m---[m
+ src/com/tangshunyao/adapter/Main.java       |  5 [32m+++++[m
+ src/com/tangshunyao/adapter/Rectangle.java  | 23 [32m+++++++++++++++++++++++[m
+ src/com/tangshunyao/adapter/ShapeBasic.java |  9 [32m+++++++++[m
+ 4 files changed, 37 insertions(+), 3 deletions(-)
+
+[33mcommit 42304db555bc47f93443d00271f59ac4861bc485[m
+Author: ”tangshunyao” <”211449757@qq.com”>
+Date:   Thu Apr 16 16:59:49 2026 +0800
+
+    create main
+
+ src/Main.java | 3 [32m+++[m
+ 1 file changed, 3 insertions(+)
+
+[33mcommit 1c2e342de28e54b85d5fb457f89297b3286cca7a[m
+Author: ”tangshunyao” <”211449757@qq.com”>
+Date:   Thu Apr 16 16:55:15 2026 +0800
+
+    create main
+
+ src/Main.java | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
