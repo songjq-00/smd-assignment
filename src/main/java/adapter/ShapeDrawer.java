@@ -15,12 +15,13 @@ public class ShapeDrawer extends Drawing<ShapeBasic> {
     }
 
     public void showVisibility(){
+        int count = 1;
         for(ShapeBasic shape : getBasicShapes()){
             String status;
             if(shape.isVisible()){
                 status = "visible";
             }else{
-                status = "in the background"
+                status = "in the background";
             }
             System.out.println(count + ". shape is" + status +": " + shape.printText());
             count++;
