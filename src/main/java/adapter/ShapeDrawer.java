@@ -36,7 +36,7 @@ public class ShapeDrawer extends Drawing<ShapeBasic> {
             }else{
                 status = "in the background";
             }
-            System.out.println(count + ". shape is" + status +": " + shape.printText());
+            System.out.println(count + ". shape is " + status +": " + shape.printText());
             count++;
         }
     System.out.println("Total number of shapes: " + getBasicShapes().size());

@@ -8,8 +8,10 @@ public class AdapterMain {
 
         Rectangle rec1 = new Rectangle();
         Rectangle rec2 = new Rectangle();
+        rec2.changeVisibility();
         Circle cir1 = new Circle();
         Circle cir2 = new Circle();
+        cir2.changeVisibility();
         Rectangle rec3 = new Rectangle();
 
         drawing.addBasicShape(rec1);
