@@ -3,18 +3,31 @@ package main.java.adapter;
 public class ShapeDrawer extends Drawing<ShapeBasic> {
     @Override
     public void draw() {
+        if(getBasicShapes().isEmpty()){
+            System.out.println("Drawing is empty!");
+            return;
+        }
         for(ShapeBasic shape : getBasicShapes()){
             shape.draw();
         }
     }
 
     public void grow(){
+        if(getBasicShapes().isEmpty()){
+            System.out.println("Drawing is empty!");
+            return;
+        }
         for(ShapeBasic shape : getBasicShapes()){
             shape.grow();
         }
     }
 
     public void showVisibility(){
+        if(getBasicShapes().isEmpty()){
+            System.out.println("Drawing is empty!");
+            return;
+        }
+
         int count = 1;
         for(ShapeBasic shape : getBasicShapes()){
             String status;
