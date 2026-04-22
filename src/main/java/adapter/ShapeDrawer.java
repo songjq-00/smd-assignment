@@ -5,7 +5,6 @@ public class ShapeDrawer extends Drawing<ShapeBasic> {
     public void draw() {
         if(getBasicShapes().isEmpty()){
             System.out.println("Drawing is empty!");
-            return;
         }
         for(ShapeBasic shape : getBasicShapes()){
             shape.draw();
@@ -15,7 +14,6 @@ public class ShapeDrawer extends Drawing<ShapeBasic> {
     public void grow(){
         if(getBasicShapes().isEmpty()){
             System.out.println("Drawing is empty!");
-            return;
         }
         for(ShapeBasic shape : getBasicShapes()){
             shape.grow();
@@ -25,7 +23,6 @@ public class ShapeDrawer extends Drawing<ShapeBasic> {
     public void showVisibility(){
         if(getBasicShapes().isEmpty()){
             System.out.println("Drawing is empty!");
-            return;
         }
 
         int count = 1;
