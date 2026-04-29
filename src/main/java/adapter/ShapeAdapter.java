@@ -11,6 +11,7 @@ public class ShapeAdapter extends Visibility implements ShapeBasic{
         adaptee.drawShape();
     }
 
+    @Override
     public void grow(){
         System.out.println(printText() + ", cannot grow");
     }

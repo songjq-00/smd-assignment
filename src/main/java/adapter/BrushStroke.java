@@ -13,7 +13,7 @@ public class BrushStroke extends Visibility implements ShapeBasic, CanBeColored 
 
     @Override
     public void draw(){
-        System.out.println("Brush stokes with thickness " + thickness);
+        System.out.println("Brush strokes with thickness " + thickness);
     }
     
     @Override
